@@ -1,0 +1,635 @@
+﻿body{
+	font-family: Open Sans;
+}
+.error{
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: #E8AB62;
+}
+i.fa-star-o, i.fa-star, i.fa-star-half-o{
+    color: yellow;
+}
+section.white-bg{
+    background-color: white;
+    padding: 30px 0px;
+    border: 1px solid #e7e7e7;
+}
+section.grey-bg{
+    background-color: #f4f4f4;
+    padding: 30px 0px;
+}
+section.brown-bg{
+    background-color: #cccccc;
+    padding: 30px 0px;
+}
+.section-main{
+    text-align: center;    
+}
+div.lentren {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.text-white{
+    color: white;
+}
+
+#wrapper {
+    width: 100%;
+}
+#header {
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0,0,0.58,1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0,0,0.58,1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0,0,0.58,1) 0s;
+    -webkit-transition: all 0.3s cubic-bezier(0,0,0.58,1) 0s;
+}
+#header > nav > .container{
+    height: 75px;
+    background-color: #ffffff;
+}
+.logo {
+    padding-top: 10px;
+}
+#navbar {
+    position: static;
+    float: right;
+    margin-top: 10px
+}
+#navbar > ul > li >  a {
+    text-transform: uppercase;
+}
+#navbar > ul > li.active a { 
+    background-color: #DD374D;
+    color: black;
+}
+#navbar > ul > li a:hover {
+    color: #DD374D;
+}
+#navbar > ul > li > a:focus, #navbar > ul > li > a:hover {
+    background: transparent;
+}
+.navbar-header > button {
+    display: none;
+}
+.navbar-default{
+    background-color: #ffffff;
+}
+/*Đăng nhập*/
+.form-dang-nhap input[type=radio]{
+    margin: 10px;
+}
+
+.form-dang-ky{
+	margin-top: 20px;
+}
+
+/*Thông báo*/
+.thongbao{
+    min-height: 500px;
+}
+.thongbao .title-thong-bao{
+    padding: 20px;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+.thongbao .imp-notify, .thongbao .imp-notify > li{
+    width: 100%;
+}
+.thongbao .noi-dung-thong-bao{
+    color: black;
+}
+.thongbao img{
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.thongbao .avatar-thong-bao{
+    float: left;
+    margin: 10px;
+}
+.imp-notify li{
+    display: block;
+    padding: 10px;
+}
+
+/*slider */
+#slider {
+    position: relative;
+}
+
+.single-slider {
+}
+
+.single-slider .carousel-caption {
+    padding-top: 50px;
+    bottom: 20%;
+}
+.single-slider .carousel-caption h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 5;
+    color: #fff;
+    font-family: "open-sans", Arial, sans-serif;
+}
+.single-slider .carousel-caption p {
+    color: #f9ad18;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 100;
+    z-index: 100;
+    font-family: "open-sans", Arial, sans-serif;
+}
+#slider .slide a.carousel-control {
+    background-color: #f9ad18;
+    background-image: none;
+    color: #fff;
+    font-size: 50px;
+    height: 80px;
+    line-height: 70px;
+    top: 40%;
+    width: 50px;
+    z-index: 100;
+}
+#slider .slide a.left {
+    left: 10%;
+}
+#slider .slide a.right {
+    right: 10%;
+}
+#slider .slide a.carousel-control i {
+    color: #fff;
+}
+
+/*Footer*/
+.footer {
+    background-color: #434343;
+    padding: 30px 0;
+}
+.foot-social-icon {
+    margin-bottom: 15px;
+}
+.foot-social-icon a i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    padding: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.foot-social-icon a:hover i {
+    background-color: #DD374D;
+    border-color: #DD374D;
+}
+.copyright {
+    font-size: 14px;
+    color: #fff;
+}
+.copyright p {
+    margin: 0;
+}
+
+#pop-up{
+    background: rgba(0,0,0,.85);
+text-align: center;
+padding-bottom: 23px;
+padding-right: 0 !important;
+display: none;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 99999;
+}
+#pop-up .close-popup-signup {
+    float: right;
+    margin-right: 10px;
+    display: block;
+    font-size: 15pt;
+}
+#pop-up  .close-popup-signup a {
+    color: #fff;
+    text-decoration: none;
+}
+#pop-up h3 {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}   
+
+#pop-up  p.l-popup-login {
+    color: #cecece;
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+#pop-up  p.l-popup-signup {
+    color: #cecece;
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+#pop-up  p.l-popup-signup a{
+    margin: 0px 5px;
+    color: yellow;
+}
+#pop-up button{
+    font-size: 14px;
+    padding: 7px 50px;
+    text-transform: capitalize;
+    transition: .2s ease-out;
+    font-weight: 400;
+    border: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+#pop-up button.phuhuynh{
+    color: #111;
+    margin: 15px;
+    background: #e1df1a;
+}
+#pop-up button.giasu{
+    background: #ebebeb;
+    color: #666;
+}
+@media (max-width: 768px) {
+    #header {
+        margin: 0;
+    }
+    .logo {
+
+    }
+    .navbar-header > button {
+        display: inline-block;
+        float: right;
+        position: relative;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .navbar-header > button > span.icon-bar {
+        width: 15px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        top: 50%;
+    }
+    #navbar {
+        border: 1px solid #cccccc;
+        background-color: rgba(255,255,255,0.95);
+        float: none;
+    }
+    #slider .slide a.carousel-control {
+        background-color: #f9ad18;
+        background-image: none;
+        color: #fff;
+        font-size: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 40%;
+        width: 20px;
+        z-index: 100;
+    }
+
+    .single-slider .carousel-caption {
+        bottom: 0;
+    }
+    .single-slider img {
+        width: auto;
+        max-width: none !important;
+        height: 300px !important;
+    }
+    .carousel-caption {
+        top: 0;
+        bottom: 0;
+    }
+    .carousel-caption h1{
+        font-size: 32px !important;
+    }
+
+}
+
+/*Tìm kiếm gia sư*/
+.tim-kiem{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*Bài viết*/
+.ten-chuyen-muc{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ten-bai-viet{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+    font-weight: bold;
+}
+.tung-chuyen-muc{
+    margin-bottom: 30px;
+}
+
+/*Đếm*/
+.counter-content h1 {
+    color: #8a8a8a;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "open-sans", Arial, sans-serif;
+}
+.counter-group > .counter-icon > h6 {
+    color: #dd374d;
+    padding: 20px 0;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "open-sans", Arial, sans-serif;
+}
+.counter-icon i{
+    font-size: 40px;
+}
+.quang-cao{
+    margin: 0 auto;
+}
+
+/*Bài viết chuyên mục*/
+ul.pagination {
+    float: right;
+}
+ul.pagination li.active a{
+    background-color: #fedc67 !important;
+    border-color: #fedc67 !important;
+}
+.bai-viet-chuyen-muc{
+    margin-bottom: 50px;
+}
+.noidungbaiviet{
+    text-align: justify;
+}
+div.noidungbaiviet{
+    text-align: justify;
+}
+div.noidungbaiviet img{
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid #cccccc;
+}
+div.noidungbaiviet h1.tieude{
+    color: #e33e6d;
+}
+div.noidungbaiviet p.thoigian{
+    color:#8c8c8c;
+    font-style: italic;
+}
+/* Right-bar */
+div.right-bar div.col-sm-12{
+    padding-bottom: 30px;
+}
+div.right-bar li{
+    /* border-bottom: 1px solid #cccccc; */
+}
+div.right-bar h4{
+    text-transform: uppercase;
+}
+ul.newpost li h5, ul.chuyenmuc li h5{
+    display: inline-block;
+}
+ul.newpost li h5 a, ul.chuyenmuc li h5 a{
+    color: #e33e6d;
+}
+ul.newpost li span, ul.chuyenmuc li span{
+    color: #8c8c8c;
+}
+
+ul.cacbaiviet li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul.cacbaiviet li div.chuyenmuc{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.tab-content {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    display: inline-block;
+    padding: 25px;
+}
+.tabpane-container ul li{
+    padding: 0;
+}
+.tabpane-container ul li a {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: #868585;
+    font-size: 15px; 
+    font-family: "open-sans", Arial, sans-serif;
+}
+.tabpane-container ul li.active a {
+    background: #fff;
+    border-bottom: none;
+    border-top: 2px solid #DD374D;
+}
+.tabpane-container ul li h5 a {
+    border: none;
+}
+.right-bar .col-sm-12{
+    /*background-color: #f4f4f4;*/
+}
+.chuyen-muc{
+    border-top: 1px solid #ddd;
+}
+.cat-right-bar{
+    color: #000000;
+    background-color: #DBE8A6;
+    padding: 6px;
+}
+@media only screen and (min-width: 768px) {
+    .hien-thi-binh-luan{
+        min-height: 250px;
+    }
+}
+.hien-thi-binh-luan h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:17px;
+	color:#E8AB62;
+}
+.hien-thi-binh-luan h5 span{
+    font-weight: normal;
+    text-transform: none;
+    font-style: italic;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.hien-thi-binh-luan > div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hien-thi-binh-luan p{
+    color: #cccccc;
+}
+
+.hien-thi-comment h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:17px;
+    color:#E8AB62;
+}
+.hien-thi-comment h5 span{
+    font-weight: normal;
+    text-transform: none;
+    font-style: italic;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.hien-thi-comment > div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hien-thi-comment p{
+    color: #cccccc;
+}
+
+.templatemo-blue-button{
+    background-color: #39ADB4;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+h4.tieu-de{
+    color: #3275bb;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.thong-bao{
+    min-height: 500px;
+}
+.img-center{
+    margin: 0 auto;
+}
+
+/*portfolio*/
+#portfolio {
+    padding: 50px 0;
+}
+ul.portfolio-filter {
+    padding-bottom: 40px;
+}
+.portfolio-filter li {
+    display: inline-block;
+}
+.portfolio-filter li a {
+    font-style: italic;
+    padding: 5px 15px;
+    transition: all 0.5s;
+    font-family: "open-sans", Arial, sans-serif;
+}
+.portfolio-filter li a.active, #portfolio li:hover a {
+    color: #DD374D;
+    text-decoration: underline;
+}
+
+.portfolio-item {
+    margin:5px 0;
+    padding: 0 5px;
+}
+
+.portfolio-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-box a.porfolio-popup {
+    display: block;
+}
+
+.portfolio-box .portfolio-image-wrap {
+    display: block;
+    transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.portfolio-box .portfolio-image-wrap img {
+    width: 100%;
+}
+
+.portfolio-box:hover .portfolio-image-wrap {
+    transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transform: scale(1.1)5;
+    -ms-transform: scale(1.15);
+    transition: all 2s cubic-bezier(0.23, 0.5, 0.32, 0.7);
+    -o-transition: all 2s cubic-bezier(0.23, 0.5, 0.32, 0.7);
+    -moz-transition: all 2s cubic-bezier(0.23, 0.5, 0.32, 0.7);
+    -webkit-transition: all 2s cubic-bezier(0.23, 0.5, 0.32, 0.7);
+    width: 100%;
+}
+
+.portfolio-box .portfolio-caption-mask {
+    background: rgba(0, 0, 0, 0.8) none repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    padding-top: 25%;
+    transition: all 0.5s ease-in-out 0s;
+    transform: scale(0);
+}
+
+.portfolio-box:hover .portfolio-caption-mask {
+    transform: scale(1);
+    opacity: 1;
+}
+.portfolio-box:hover .portfolio-caption-mask {
+    bottom: 30px;
+    opacity: 1;
+}
+.portfolio-box .portfolio-caption-mask h5 {
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: "open-sans", Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-caption-mask p {
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "open-sans", Arial, sans-serif;
+}
+
+/*Tường gia sư*/
+.khu-vuc-vote a i{
+    font-size: 25px;
+}
